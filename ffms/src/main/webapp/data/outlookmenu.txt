@@ -1,0 +1,31 @@
+﻿[
+	{ id: "manage", text: "收支管理", iconCls: "icon-yxgl"},
+	{ id: "incomeManage", pid: "manage", text: "收入信息维护", iconCls: "icon-yxjhgl", url: "incomeManage.do" },
+	{ id: "payManage", pid: "manage", text: "支出信息维护", iconCls: "icon-khkfjh", url: "payManage.do" },
+		
+	{ id: "finance", text: "财务管理", iconCls: "icon-yxgl"},
+	{ id: "securityManage", pid: "finance", text: "证券帐户管理", iconCls: "Note", url: "securityManage.do" },
+	{ id: "sharesManage", pid: "finance", text: "持股管理", iconCls: "Reports", url: "sharesManage.do"},		
+	{ id: "tradeManage", pid: "finance", text: "证券流水账管理", iconCls: "Reports", url: "tradeManage.do"},		
+
+	{ id: "report", text: "报表管理", iconCls: "icon-yxgl"},
+	{ id: "incomeTimeManage", pid: "report", text: "按时间收入报表", iconCls: "Note", url: "incomeTimeManage.do"},
+	{ id: "payTimeManage", pid: "report", text: "按时间支出报表", iconCls: "Reports", url: "payTimeManage.do" },		
+	{ id: "typePieManage", pid: "report", text: "按类型报表", iconCls: "Reports", url: "typePieManage.do" }	,	
+	
+	{ id: "database", text: "数据库管理", iconCls: "icon-yxgl"},
+	{ id: "databackManage", pid: "database", text: "数据库备份", iconCls: "Note", url: "databackManage.do"},
+	{ id: "datarecoverManage", pid: "database", text: "数据库恢复", iconCls: "Reports", url: "datarecoverManage.do"},		
+	{ id: "datainitManage", pid: "database", text: "数据库初始化", iconCls: "Note", url: "datainitManage.do"},
+	{ id: "dataorderManage", pid: "database", text: "数据库整理", iconCls: "Reports", url: "dataorderManage.do" },
+	
+	{ id: "user", text: "用户管理", iconCls: "icon-yxgl"},
+	{ id: "userManaget", pid: "user", text: "用户信息管理", iconCls: "Note", url: "userManage.do"},
+	{ id: "roleManage", pid: "user", text: "角色管理", iconCls: "Reports", url: "roleManage.do"},	
+	{ id: "datadicManage", pid: "user", text: "数据字典管理", iconCls: "Reports", url: "datadicManage.do" },	
+	{ id: "roleManage", pid: "user", text: "修改用户信息", iconCls: "Note"},
+	{ id: "datadicManage", pid: "user", text: "修改密码", iconCls: "Reports"}	,			
+
+	
+		
+]
